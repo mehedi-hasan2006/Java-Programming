@@ -1,5 +1,6 @@
 /* addition, subtraction, division, multiplacation & modulas
- operation in two number.
+ operation in two number. 
+ Mehedi Hasan
  */
 public class ArithmaticOperation {
     public static void main(String[] args){
