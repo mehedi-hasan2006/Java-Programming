@@ -1,6 +1,6 @@
 public class Operator {
     public static void main(String[] args){
-       // logical operator
+        // logical operator
         int a = 50;
         int b = 50;
         int c= 70;
@@ -23,18 +23,49 @@ public class Operator {
         int x= 5;
         int y = ++x;
         System.out.println(y);
-
-        //postfix increment
+//
+//        //postfix increment
          int z= 15;
          int j= z--;
         System.out.println(j);
         System.out.println(z);
 
-
+//   keyboard shortcut  for comment = ctrl + /
         // special operator (concatination)
-        String firstName = "Mehedi ";  // camel case
+        String firstName = "Mehedi";  // camel case
         String lastName = "Hasan";
         String fullNamme =  firstName + lastName;
-        System.out.println(fullNamme );
+        System.out.println("you full name is : " + firstName + " " + lastName );
+
+// concatiantion on String $ int
+        String w=  "8";
+        int z = 5;
+
+        System.out.println(w+ z);
+        System.out.println(w+ z);
+
+        // relational operator ==, <, >, <=, >=, !=
+
+        int p= 15;
+        int q= 19;
+        if(p>q){    // condition = শর্ত  ( if, else-if, if-else, else)
+            System.out.println("p is large"); //true
+        } else{
+            System.out.println("q is large"); //False
+        }
+
+        int hh= 46;
+        int jj=hh;
+        System.out.println(jj);
+
+
+
+
+
+        // different between print() & println()
+        System.out.println("rafat");
+        System.out.println("rafat");
+        System.out.print("rafat");
+        System.out.print("rafat");
     }
 }
