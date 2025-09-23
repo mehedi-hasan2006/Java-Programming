@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Operator {
     public static void main(String[] args){
         // logical operator
@@ -23,14 +25,14 @@ public class Operator {
         int x= 5;
         int y = ++x;
         System.out.println(y);
-//
+
 //        //postfix increment
          int z= 15;
          int j= z--;
         System.out.println(j);
         System.out.println(z);
-
-//   keyboard shortcut  for comment = ctrl + /
+//
+////   keyboard shortcut  for comment = ctrl + /
         // special operator (concatination)
         String firstName = "Mehedi";  // camel case
         String lastName = "Hasan";
@@ -48,11 +50,44 @@ public class Operator {
 
         int p= 15;
         int q= 19;
-        if(p>q){    // condition = শর্ত  ( if, else-if, if-else, else)
+        if(p<q){    // condition = শর্ত  ( if, else-if, if-else, else)
             System.out.println("p is large"); //true
         } else{
             System.out.println("q is large"); //False
         }
+
+
+        //  if, else if, else
+        // Calculate Grade Point
+        Scanner scanner= new Scanner(System.in);
+
+        System.out.print("Enter Your number: ");
+        int number =scanner.nextInt();
+
+        if(number>=80){
+            System.out.println(" Your Grade is A+ & Grade point is 5.00");
+        }
+        else if(number>=70){
+            System.out.println("A");
+        }
+        else if (number>=60){
+            System.out.println("A-");
+        }
+        else if (number>=50){
+            System.out.println("B");
+        }
+        else if (number>=40) {
+            System.out.println("C");
+        }
+        else if (number>=33) {
+            System.out.println("D");
+        }
+        else{
+            System.out.println("F");
+        }
+
+        scanner.close();
+
 
         int hh= 46;
         int jj=hh;
@@ -67,5 +102,17 @@ public class Operator {
         System.out.println("rafat");
         System.out.print("rafat");
         System.out.print("rafat");
+
+
+       //  Question Solve
+
+        String A = "778"; //uppercase & lower case
+        String B= "001";
+        System.out.println(A+B);
+
+         // Variable Declare
+        Double IV = 65.3;    //A-Z, a-z
+        System.out.println(IV);
+
     }
 }
